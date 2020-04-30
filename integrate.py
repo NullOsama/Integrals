@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 class Integrate:
     
-    """ base class for different numerical integration methods
+    """ Base class for different numerical integration methods
     
     Parameters
     ----------

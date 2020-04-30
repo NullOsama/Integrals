@@ -40,7 +40,7 @@ class Riemann(Integrate):
         
         Examples
         --------
-        >>> compute_integral(0,np.pi/2,1000), f = lambda x:1/(1 + x**2)
+        >>> compute_integral(0,np.pi/2,1000), f = lambda x:1 / (1 + x**2)
         approx = 1.3731040812301096
         actual = 1.373400766945016
         """

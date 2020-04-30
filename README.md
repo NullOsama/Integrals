@@ -1,6 +1,6 @@
 # integrals
 
-integrals is a Python library for using numerical methods to approximate definit integrals.
+integrals is a Python library for using numerical methods to approximate definite integrals.
 
 ## Installation
 

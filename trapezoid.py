@@ -50,7 +50,7 @@ class Trapezoid(Integrate):
         
         Examples
         --------
-        >>> compute_integral(0,5,1000), f = lambda x:1/(1 + x**2)
+        >>> compute_integral(0,5,1000), f = lambda x:1 / (1 + x**2)
         approx = 1.3734007823542813
         actual = 1.373400766945016
         """
