@@ -36,19 +36,3 @@ class TestRiemannClass(unittest.TestCase):
         
 if __name__ == '__main__':
     unittest.main()
-    
-    
-    
-    7- run 'twine upload --repository-url http://test.pypi.org/legacy/ dist/*
-	Enter usernem and password to youre test Pypi account
-8- Ensure that hte package uploaded properly to test Pypi.
-	Install the package from test Pypi using 'pip install --index-url http://test.pypi.org/simple/ prob_package'
-9- Then you can upload to pypi using 'twine upload dist/*'
-
-10- uninstall package installed from test pypi
-
-11- install the package from Pypi using 'pip install prob-package' # the _ is used as - while installing but inside the code it is _
-
-12- import the package and use it. ^_^
-
-
