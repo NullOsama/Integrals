@@ -17,7 +17,7 @@ from integrals import Riemann, Trapezoid, Simpson
 from numpy import exp
 
 f = lambda x:exp(x**2)
-riemann = Riemann(x)
+riemann = Riemann(f)
 print(riemann.compute_integral(-1, 3, 30, 'midpoint')) # Computing the integral of f(x) using 'Riemann midpoint sum' from -1 to 3 with 30 sub-intervals.
 trapezoid = Trapezoid(f)
 print(trapezoid.compute_integral(-1, 3, 30)) # Computing the integral of f(x) using 'trapezoid rule' from -1 to 3 with 30 sub-intervals.
