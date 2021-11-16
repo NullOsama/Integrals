@@ -7,7 +7,7 @@ integrals is a Python library for using numerical methods to approximate definit
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install integrals.
 
 ```bash
-pip install integrals
+pip3 install integrals
 ```
 
 ## Usage
