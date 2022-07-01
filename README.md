@@ -28,6 +28,15 @@ riemann.plot_function() # Plots the function and shows the Rieman's sum rectangl
 trapezoid.plot_function() # Plots the function and shows the trapezoids
 simpson.plot_function() # Plots the function and shows the sectors
 ```
+Riemann            
+:-------------------------:
+![Figure 1: Riemann](https://user-images.githubusercontent.com/44961698/176835779-f878e11b-b3b6-463a-93cb-e6c9ffcc9b86.png)
+
+Trapezoid             |  Simpson
+:-------------------------:|:-------------------------:
+![Figure 2: Trapezoid](https://user-images.githubusercontent.com/44961698/176836121-30e25bde-c4df-43a2-881c-c0a483e166d0.png)  |  ![Figure 3: Simpson](https://user-images.githubusercontent.com/44961698/176836168-7517509e-9850-44d3-94f8-f09f60c13907.png)
+
+
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
